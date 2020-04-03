@@ -3,6 +3,27 @@ import './SecondSection.css'
 import CardTournament from '../card-tournament/CardTournament'
 
 const SecondSection = () => {
+    const arrayMotto = [
+        {
+            id: 1,
+            name: 'Buat Profile Kamu'
+        },
+        {
+            id: 2,
+            name: 'Ikuti turnamennya'
+        },
+        {
+            id: 3,
+            name: 'Discover'
+        },
+        {
+            id: 4,
+            name: 'Raih hadiah cookies'
+        },
+
+    ]
+
+
     return (
         <div className="bg-section2">
             <div className="wrapper-content">
@@ -22,7 +43,7 @@ const SecondSection = () => {
                                     alt="icon-profile"
                                 />
                                 <p className="text-desc">
-                                    Buat Profile Kamu
+                                    {arrayMotto[0].name}
                                 </p>
                             </div>
                             <div className="m-3">
@@ -30,7 +51,7 @@ const SecondSection = () => {
                                     src="https://yamisok.com/assets/images/landing-v2/section2/icon/icon-turnament.svg"
                                     alt="icon-turnament"
                                 />
-                                <p className="text-desc">Ikuti turnamennya</p>
+                                <p className="text-desc">{arrayMotto[1].name}</p>
                             </div>
                         </div>
                         <div className="d-flex padding-mobile w-93">
@@ -39,7 +60,7 @@ const SecondSection = () => {
                                     src="https://yamisok.com/assets/images/landing-v2/section2/icon/icon-discover.svg"
                                     alt="icon-discover"
                                 />
-                                <p className="text-desc">Discover</p>
+                                <p className="text-desc">{arrayMotto[2].name}</p>
                             </div>
                             <div className="m-3">
                                 <img
@@ -48,8 +69,7 @@ const SecondSection = () => {
                                     alt="icon-cookie"
                                 />
                                 <p className="text-desc">
-                                    Raih hadiah cookies
-                  </p>
+                                    {arrayMotto[3].name}</p>
                             </div>
                         </div>
                     </div>

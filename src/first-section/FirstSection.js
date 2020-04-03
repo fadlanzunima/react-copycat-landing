@@ -17,48 +17,48 @@ function FirstSection() {
             />
             <SecondSection />
 
-            <div class="teman-baru">
-                <div class="width-left">
-                    <img class="ico-numb" src="https://yamisok.com/assets/images/landing-v2/section3/image-3.png" alt="number-3" />
-                    <div class="mt-3">
+            <div className="teman-baru">
+                <div className="width-left">
+                    <img className="ico-numb" src="https://yamisok.com/assets/images/landing-v2/section3/image-3.png" alt="number-3" />
+                    <div className="mt-3">
                         <h1>JELAJAHI TEMAN BARU</h1>
                         <h4>
                             Share profile keren kamu di Yamisok agar
                             terlihat di Discover dan dicari oleh team yang
                             ingin mengajakmu bergabung.
             </h4>
-                        <span class="line-yellow"></span>
+                        <span className="line-yellow"></span>
                     </div>
                 </div>
-                <div class="img-content teman-baru-img">
+                <div className="img-content teman-baru-img">
                     <img src="https://yamisok.com/assets/images/landing-v2/section3/teman-baru.png" alt="teman-baru" />
                 </div>
             </div>
 
-            <div class="cookies">
-                <div class="width-left for-mobile">
-                    <img class="ico-numb" src="https://yamisok.com/assets/images/landing-v2/section4/image-4.png" alt="number-3" />
-                    <div class="mt-3">
+            <div className="cookies">
+                <div className="width-left for-mobile">
+                    <img className="ico-numb" src="https://yamisok.com/assets/images/landing-v2/section4/image-4.png" alt="number-3" />
+                    <div className="mt-3">
                         <h1>DAN RAIH COOKIESNYA</h1>
                         <h4>
                             Kumpulkan Cookies dengan mengikuti misi
                             dan turnamen harian. Tukarkan dengan berbagai hadiah menarik yang ada di Yamisok Market dan Lucky Draw.
             </h4>
-                        <span class="line-yellow"></span>
+                        <span className="line-yellow"></span>
                     </div>
                 </div>
-                <div class="img-content hadiah-img">
+                <div className="img-content hadiah-img">
                     <img src="https://yamisok.com/assets/images/landing-v2/section4/hadiah.png" alt="hadiah" />
                 </div>
-                <div class="width-left for-desktop">
-                    <img class="ico-numb" src="https://yamisok.com/assets/images/landing-v2/section4/image-4.png" alt="number-3" />
-                    <div class="mt-3">
+                <div className="width-left for-desktop">
+                    <img className="ico-numb" src="https://yamisok.com/assets/images/landing-v2/section4/image-4.png" alt="number-3" />
+                    <div className="mt-3">
                         <h1>DAN RAIH COOKIESNYA</h1>
                         <h4>
                             Kumpulkan Cookies dengan mengikuti misi
                             dan turnamen harian. Tukarkan dengan berbagai hadiah menarik yang ada di Yamisok Market dan Lucky Draw.
             </h4>
-                        <span class="line-yellow"></span>
+                        <span className="line-yellow"></span>
                     </div>
                 </div>
             </div>
