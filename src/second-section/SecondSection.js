@@ -19,10 +19,52 @@ const SecondSection = () => {
         {
             id: 4,
             name: 'Raih hadiah cookies'
-        },
+        }
 
     ]
 
+    const arrGet = [
+        {
+            "url": "turnament-mobile-legends-bang-bang",
+            "resize_poster": "http://res.cloudinary.com/yamisok/image/upload/h_400,f_auto/v1585807938/tournament/lorlbaulgp76h4w7836w.jpg",
+            "name": "Turnament Mobile Legends Bang Bang",
+            "status_desc": "Upcoming", "prize": "Rp 5.000.000",
+            "team_slot": 128,
+            "count_participant": 12,
+            "date": "10 Apr 2020",
+            "time": "13:00",
+            "type": "tournament"
+        },
+        {
+            "url": "mlbb-ligagame-online-community-cup-1",
+            "resize_poster": "http://res.cloudinary.com/yamisok/image/upload/h_400,f_auto/v1585462157/tournament/sbwmzhlhqz0dwqg00ru4.jpg",
+            "name": "MLBB Ligagame Online Community Cup",
+            "status_desc": "Upcoming",
+            "prize": null,
+            "team_slot": 32,
+            "count_participant": 0,
+            "date": "31 Mar 2020",
+            "time": "14:00", "type": "series"
+        },
+        {
+            "url": "yamisok-chess-rush-online-tournament-2",
+            "resize_poster": "http://res.cloudinary.com/yamisok/image/upload/h_400,f_auto/v1585305956/tournament/lgghdlwussr2dty5asok.png",
+            "name": "Yamisok Chess Rush Online Tournament",
+            "status_desc": "Upcoming",
+            "prize": null,
+            "team_slot": 32,
+            "count_participant": 0,
+            "date": "30 Mar 2020",
+            "time": "15:00",
+            "type": "series"
+        }
+    ]
+
+    const getTur = arrGet.map((item, index) => {
+        return (
+            <CardTournament key={index} url={item.url} resize_poster={item.resize_poster} name={item.name} />
+        )
+    })
 
     return (
         <div className="bg-section2">
@@ -181,7 +223,7 @@ const SecondSection = () => {
                             }
                         }>
                             <h1 className="title">Turnamen saat ini</h1>
-                            <CardTournament />
+                            {getTur}
                         </div>
 
                         <div className="section-list-game">

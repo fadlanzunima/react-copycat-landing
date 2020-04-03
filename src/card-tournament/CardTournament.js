@@ -1,9 +1,10 @@
 import React from 'react'
 import './CardTournament.css'
 
-function CardTournament() {
+function CardTournament(properties) {
+    console.log(properties)
     return (
-        <div>
+        <div className="mt-4">
             <a
                 className="d-flex flex-row"
                 style={{
@@ -12,7 +13,7 @@ function CardTournament() {
                     textDecoration: 'none'
 
                 }}
-                href="https://yamisok.com/tournaments/turnament-mobile-legends-bang-bang"
+                href={properties.url}
             >
                 <div className="d-flex flex-row" style={
                     {
@@ -22,13 +23,13 @@ function CardTournament() {
                 }>
                     <div>
                         <div className="tournament__background" style={{ overflow: 'hidden' }}>
-                            <img className="img-turnamen" alt="img-tournament" src="http://res.cloudinary.com/yamisok/image/upload/h_400,f_auto/v1585807938/tournament/lorlbaulgp76h4w7836w.jpg" />
+                            <img className="img-turnamen" alt="img-tournament" src={properties.resize_poster} />
                         </div>
                     </div>
                     <div className="tournament__content nowellips">
                         <div className="d-flex w-100 tournament__content--title">
                             <div className="nowellips">
-                                <h3 className="nowellips">Turnament Mobile Legends Bang Bang</h3>
+                                <h3 className="nowellips">{properties.name}</h3>
                             </div>
                             <div className="ml-auto for-desktop">
                                 {/* <label v-if="turnamentCard.status_desc == '' " className="label--upcoming">Upcoming</label> */}
