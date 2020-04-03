@@ -1,0 +1,33 @@
+.navigation-panel {
+    width: 100%;
+    height: 4vw;
+    background-color: #12181a;
+  }
+
+  .container-panel {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .btn--masuk--landing {
+    width: 10vw;
+    height: 2vw;
+    border-radius: 30px;
+    color: #05040a;
+    font-size: 0.875rem;
+    line-height: 20px;
+    margin: 1vw;
+    padding: 4px;
+    background-color: #f3c500;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+  }
+
+  .logo-yamisok {
+    width: 132px;
+    height: 36px;
+    margin: 1vw;
+  }

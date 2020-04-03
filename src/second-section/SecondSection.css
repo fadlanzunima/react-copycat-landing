@@ -1,0 +1,272 @@
+.bg-section2 {
+    background: url("https://res.cloudinary.com/yamisok/image/upload/v1583203799/landing/section2/bg-section2-desktop.png");
+    width: 100%;
+    height: auto;
+    margin-top: -4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .wrapper-content {
+    letter-spacing: 0.5px;
+    max-width: 1280px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .ico-numb {
+    width: 112px;
+    height: 112px;
+  }
+
+  .txt-wrapper {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .txt-wrapper .icon-wrapper {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    /* @media (max-width: 1023px) {
+      flex-flow: wrap;
+    } */
+  }
+  .txt-wrapper .icon-menu {
+    width: 120px;
+    object-fit: contain;
+  }
+
+  .text-desc {
+    font-size: 1.41rem;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: "ProximaNova";
+    /* @media (max-width: 1023px) {
+      font-size: 1rem;
+    } */
+  }
+  
+  h1 {
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #ffffff;
+    font-size: 1.9rem;
+    font-family: "LemonMilk";
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    color: #b9b9b9;
+    font-family: "ProximaNova";
+  }
+
+  .line-yellow::before {
+    content: "";
+    height: 8px;
+    display: block;
+  }
+
+  .line-yellow {
+    margin: 15px auto;
+    border-radius: 25px;
+    width: 70px;
+    background-color: #f3c500;
+    display: block;
+  }
+
+  .section-profile {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  
+    /* @media (max-width: 1023px) {
+      display: block;
+      padding-left: 10px;
+      padding-right: 10px;
+    } */
+  }
+  
+  /* .section-turnamen {
+    @media (max-width: 1023px) {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  } */
+
+  .width-left {
+    max-width: 470px;
+    margin: auto;
+  }
+  
+  .img-content {
+    width: 640px;
+    height: 514px;
+    margin: auto;
+    /* @media (max-width: 1023px) {
+      width: 300px;
+      height: 240px;
+    } */
+  }
+
+  .img-content img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .wrapper-icon {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    /* @media (max-width: 1023px) {
+      display: block;
+    } */
+  }
+  
+  .icon-for-turnament-section {
+    width: 130px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* @media (max-width: 1023px) {
+      width: 110px;
+      margin: 0 auto;
+    } */
+  }
+
+  .responsive-text {
+    width: 850px;
+    margin: 0 auto;
+    /* @media (max-width: 1023px) {
+      width: 100%;
+    } */
+  }
+  .banner-turnament {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    /* @media (max-width: 1023px) {
+      width: 100%;
+      height: 100%;
+    } */
+  }
+  
+  /* .fit-mobile {
+    @media (max-width: 1023px) {
+      width: fit-content;
+      margin: 0 auto;
+    }
+  } */
+  
+  .title {
+    font-size: 2.5rem;
+    text-align: left;
+    color: #ffffff;
+    font-family: "ProximaNova";
+    /* @media (max-width: 480px) {
+      font-size: 2rem;
+    } */
+  }
+  
+  .text-list-game {
+    font-family: ProximaNova;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .image-list-game {
+    width: 816.4px;
+    height: 144.4px;
+    object-fit: contain;
+    margin: auto;
+    /* @media (max-width: 1023px) {
+      width: 100%;
+      height: 121.5px;
+      padding: 1rem;
+    } */
+  }
+  
+  .btn--seemore {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "ProximaNova";
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    padding: 29px 150px;
+    cursor: pointer;
+    color: #000;
+    background-color: #f3c500;
+    border: none;
+    /* @media (max-width: 1023px) {
+      width: 300px;
+      height: 50px;
+      border-radius: 5px;
+      padding: 15px 60px;
+      font-size: 0.85rem;
+    } */
+  }
+
+  .section-list-game {
+    padding-top: 5rem;
+  }
+  
+  /* .padding-mobile {
+    @media (max-width: 1023px) {
+      padding-right: 8px;
+    }
+  } */
+
+  .teman-baru {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /* @media (max-width: 1023px) {
+      display: block;
+      padding-left: 10px;
+      padding-right: 10px;
+    } */
+  }
+  
+  .teman-baru-img {
+    width: 472.5px;
+    height: 327.8px;
+    object-fit: contain;
+    /* @media (max-width: 1023px) {
+      width: 296.8px;
+      height: 205.9px;
+    } */
+  }
+
+  .cookies {
+    display: flex;
+    max-width: 1280px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    /* @media (max-width: 1023px) {
+      display: block;
+      padding-left: 10px;
+      padding-right: 10px;
+    } */
+  }
+  
+  .hadiah-img {
+    width: 500px;
+    height: 230px;
+    /* @media (max-width: 1023px) {
+      width: 100%;
+      height: 40vmin;
+      object-fit: contain;
+    } */
+  }
