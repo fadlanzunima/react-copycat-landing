@@ -10,16 +10,21 @@
 
 .for-desktop {
   display: block;
-  /* @media screen and (max-width: 1023px) {
-    display: none;
-  } */
 }
-
 .for-mobile {
   display: none;
-  /* @media screen and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 1023px) {
+  .for-desktop{
+    display: none;
+    }
+  }
+
+@media screen and (max-width: 1023px) {
+  .for-mobile{
     display: block;
-  } */
+  }
 }
 
 .content {

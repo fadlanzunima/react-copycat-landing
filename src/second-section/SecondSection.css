@@ -32,11 +32,14 @@
     margin: auto;
     display: flex;
     justify-content: center;
-
-    /* @media (max-width: 1023px) {
-      flex-flow: wrap;
-    } */
   }
+
+  @media screen and (max-width: 1023px) {
+      .txt-wrapper .icon-wrapper {
+        flex-flow: wrap;
+      }
+  }
+
   .txt-wrapper .icon-menu {
     width: 120px;
     object-fit: contain;
@@ -47,9 +50,12 @@
     color: #ffffff;
     margin-top: 10px;
     font-family: "ProximaNova";
-    /* @media (max-width: 1023px) {
+  }
+
+  @media screen and (max-width: 1023px) {
+    .text-desc {
       font-size: 1rem;
-    } */
+    }
   }
   
   h1 {
@@ -85,19 +91,22 @@
     padding-top: 20px;
     padding-bottom: 30px;
   
-    /* @media (max-width: 1023px) {
-      display: block;
-      padding-left: 10px;
-      padding-right: 10px;
-    } */
   }
   
-  /* .section-turnamen {
-    @media (max-width: 1023px) {
+  @media screen and (max-width: 1023px) {
+    .section-profile{
+      display: block;
+      padding-left: 10px;  
+      padding-right: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .section-turnamen {
       padding-left: 5px;
       padding-right: 5px;
     }
-  } */
+  }
 
   .width-left {
     max-width: 470px;
@@ -108,10 +117,13 @@
     width: 640px;
     height: 514px;
     margin: auto;
-    /* @media (max-width: 1023px) {
+  }
+
+  @media screen and (max-width: 1023px) {
+    .img-content {
       width: 300px;
       height: 240px;
-    } */
+    }
   }
 
   .img-content img {
@@ -123,25 +135,31 @@
     display: flex;
     justify-content: center;
     padding-bottom: 4rem;
-    /* @media (max-width: 1023px) {
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .wrapper-icon {
       display: block;
-    } */
+    }
   }
   
   .icon-for-turnament-section {
     width: 130px;
     margin-left: 1rem;
     margin-right: 1rem;
-    /* @media (max-width: 1023px) {
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .icon-for-turnament-section{
       width: 110px;
       margin: 0 auto;
-    } */
+    }
   }
 
   .responsive-text {
     width: 850px;
     margin: 0 auto;
-    /* @media (max-width: 1023px) {
+    /* @media screen and (max-width: 1023px) {
       width: 100%;
     } */
   }
@@ -149,14 +167,14 @@
     width: 1000px;
     height: auto;
     margin: auto;
-    /* @media (max-width: 1023px) {
+    /* @media screen and (max-width: 1023px) {
       width: 100%;
       height: 100%;
     } */
   }
   
   /* .fit-mobile {
-    @media (max-width: 1023px) {
+    @media screen and (max-width: 1023px) {
       width: fit-content;
       margin: 0 auto;
     }
@@ -183,7 +201,7 @@
     height: 144.4px;
     object-fit: contain;
     margin: auto;
-    /* @media (max-width: 1023px) {
+    /* @media screen and (max-width: 1023px) {
       width: 100%;
       height: 121.5px;
       padding: 1rem;
@@ -202,7 +220,7 @@
     color: #000;
     background-color: #f3c500;
     border: none;
-    /* @media (max-width: 1023px) {
+    /* @media screen and (max-width: 1023px) {
       width: 300px;
       height: 50px;
       border-radius: 5px;
@@ -216,7 +234,7 @@
   }
   
   /* .padding-mobile {
-    @media (max-width: 1023px) {
+    @media screen and (max-width: 1023px) {
       padding-right: 8px;
     }
   } */
@@ -229,7 +247,7 @@
     display: flex;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    /* @media (max-width: 1023px) {
+    /* @media screen and (max-width: 1023px) {
       display: block;
       padding-left: 10px;
       padding-right: 10px;
@@ -240,7 +258,7 @@
     width: 472.5px;
     height: 327.8px;
     object-fit: contain;
-    /* @media (max-width: 1023px) {
+    /* @media screen and (max-width: 1023px) {
       width: 296.8px;
       height: 205.9px;
     } */
@@ -254,7 +272,7 @@
     margin: auto;
     padding-top: 5rem;
     padding-bottom: 10rem;
-    /* @media (max-width: 1023px) {
+    /* @media screen and (max-width: 1023px) {
       display: block;
       padding-left: 10px;
       padding-right: 10px;
@@ -264,7 +282,7 @@
   .hadiah-img {
     width: 500px;
     height: 230px;
-    /* @media (max-width: 1023px) {
+    /* @media screen and (max-width: 1023px) {
       width: 100%;
       height: 40vmin;
       object-fit: contain;

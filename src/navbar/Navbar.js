@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="navigation-panel">
+        <div className="navigation-panel sticky">
             <div className="container-panel">
                 <div>
                     <img
